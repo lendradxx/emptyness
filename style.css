@@ -14,7 +14,7 @@ body {
   border: none;
   outline: none;
   cursor: grab;
-  opacity: 75%;
+  opacity: 10%;
   font-size: 32px;
   transition: 0.5s ease-in-out;
   color: white;
