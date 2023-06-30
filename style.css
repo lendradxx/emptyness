@@ -1,0 +1,42 @@
+* {
+  transition: 0.5s ease-in-out;
+  margin: 5px 5px;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+#secretButton {
+  position: absolute;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: grab;
+  opacity: 75%;
+  font-size: 32px;
+  transition: 0.5s ease-in-out;
+  color: white;
+}
+
+#secretButton:hover {
+  display: block;
+  transition: 0.5s ease-in-out;
+  opacity: 100%;
+}
+
+#quotes {
+  text-align: center;
+  margin-top: 25vh;
+  color: black;
+  display: none;
+  font-size: medium;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  #quotes {
+    font-size: large;
+  }
+}
